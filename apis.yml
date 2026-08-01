@@ -1,7 +1,23 @@
 aid: pardes-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pardes-bio.png
 name: Pardes Bio
-description: Pardes Bio is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pardes Biosciences was a clinical-stage biopharmaceutical company focused on discovering,
+  developing, and commercializing novel therapeutics to treat and prevent viral diseases. Founded in 2020
+  and based in Carlsbad, California, it used structure-based drug design and a tunable, reversible covalent
+  chemistry platform. Its lead candidate, PBI-0451, was an oral direct-acting antiviral for SARS-CoV-2. The
+  company was acquired in 2023 and no longer operates independently. It has no public API, developer program,
+  or technical integration surface, and its former domain (pardesbio.com) is now a parked/registrar page.
 url: https://raw.githubusercontent.com/api-evangelist/pardes-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +25,25 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-2023; former domain pardesbio.com now parked; no API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Pharmaceuticals
+- Drug Discovery
+- Antivirals
+- Life Sciences
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
